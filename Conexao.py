@@ -1,11 +1,3 @@
-import subprocess
-
-# Executar comandos Git
-subprocess.run(["git", "init"], check=True)
-subprocess.run(["git", "add", "."], check=True)
-subprocess.run(["git", "commit", "-m", "Initial commit"], check=True)
-subprocess.run(["git", "remote", "add", "origin", "https://github.com/LeisaSousa/Teste.git"], check=True)
-subprocess.run(["git", "push", "-u", "origin", "master"], check=True)
 
 import sqlite3
 
